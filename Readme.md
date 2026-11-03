@@ -25,6 +25,14 @@ For each stage, write down the goal, the commands you ran, what you learned, and
 
 Open `notebooks/01_explore_iris.ipynb` in JupyterLab and run its cells from top to bottom. It guides you through the dataset, feature and target columns, missing-value checks, summary statistics, and a plot. Answer the reflection questions at the end before moving on to model training.
 
+### Second exercise: train a first model
+
+After completing the exploration notebook, open `notebooks/02_train_first_model.ipynb`. It guides you through a reproducible train/test split, a majority-class baseline, a decision tree, and evaluation with a classification report and confusion matrix. Answer the reflection questions before moving on.
+
+### Third exercise: cross-validation and model selection
+
+Open `notebooks/03_cross_validation_and_model_selection.ipynb` to compare decision tree depths using cross-validation on training data. It discusses overfitting and why repeatedly checking a test set while tuning can lead to misleading results. Since the test results were already viewed in exercise 2, the notebook avoids reusing that set as a final evaluation.
+
 ## Getting started
 
 ### 1. Open the project folder
